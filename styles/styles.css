@@ -163,7 +163,15 @@ main { padding: 24px 0 40px; flex: 1; }
     border-radius: 999px;
     transition: background 160ms ease, color 160ms ease;
 }
-
+.question {
+    font-size: larger;
+    font-style: bolder;
+    font-weight: 700;
+}
+.answer {
+    font-style: italic;
+    font-weight: lighter;
+}
 .cta:hover, .cta:focus { background: var(--color-accent); color: #0b1210; border-color: var(--color-accent); }
 
 
