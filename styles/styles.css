@@ -178,6 +178,11 @@ main { padding: 24px 0 40px; flex: 1; }
     padding: 3%;
 }
 
+.infospektra {
+    width: 65%;
+    height: auto;
+}
+
 .cta:hover, .cta:focus { background: var(--color-accent); color: #0b1210; border-color: var(--color-accent); }
 
 
