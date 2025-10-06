@@ -176,8 +176,13 @@ main { padding: 24px 0 40px; flex: 1; }
 .bildlollo {
     float: left;
     padding: 3%;
+    border-radius: 10%;
 }
-
+.lollo {
+    width: 90%;
+    height: auto;
+ 
+}
 .infospektra {
     width: 65%;
     height: auto;
