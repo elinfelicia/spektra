@@ -51,18 +51,17 @@
         </section>
 
         <section class="about-section">
-            <h2>Mina hobbies</h2>
-            <ul class="hobbies-list">
-                <li>Resa - Helst till olika delar av Asien och gärna till värmen</li>
-                <li>Äta mat - Gärna riktigt fräsch sushi och sashimi, bra fransk bistromat, eller något annat gott och spännande</li>
-                <li>Laga mat och drinkar - Jag älskar att bjuda hem folk på middag och laga god mat och roliga cocktails</li>
-                <li>Spela spel - Föredrar open world single player RPGs som t.ex. Zelda BOTW & TOTK, Assassins Creed Shadows, eller liknande</li>
+            <h2>Reflektion kring projektet</h2>
+            <ul class="reflections-list">
+                <li>Under projektets gång har jag fått repetera och fördjupa lite mer kring mina kunskaper inom frontend-utveckling och UX-design. Jag har också fått en mer nyanserad bild av hur det kan se ut att arbeta med detta på olika typer webbyråer, i jämförelse med där jag varit tidigare</li>
+                <li>I projektet har jag kunnat bidra med erfarenheter och kontakter från tidigare utbildning och uppbyggt nätverk. Personen vi intervjuade för detta projekt är en bekant till mig från tidigare studier på Chas Academy som fått sin anställning hos Spektra via sin LIA i fjol. jag tror också att jag kunnat dela med mig av en del kunskap från mina studier inom Fullstack-utveckling och vana att arbeta i team med git etc.</li>
+                <li>Samarbetet i teamet tycker jag har funkat bra, vi har kommunicerat fint och hjälpts åt. </li>
+                <li><button type="button" class="button cta" id="technical-elin">Se mer</button></li>
             </ul>
         </section>
 
         <section class="about-section contact-section">
             <h2>Kontakt</h2>
-            <p>Tveka inte att höra av dig!</p>
             <div class="contact-info">
                 <p><strong>Email:</strong> <a href="mailto:elinratliff@icloud.com">elinratliff@icloud.com</a></p>
                 <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/elin-ratcliff-932b99268/" target="_blank" rel="noopener noreferrer">linkedin.com/in/elin-ratcliff-932b99268/</a></p>
@@ -74,5 +73,32 @@
     <footer class="site-footer container">
         <p>© <span id="year"></span> FUX25 - Grupp 5</p>
     </footer>
+
+    <!-- Technical Modal -->
+    <div id="technical-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+        <div class="modal-overlay" aria-hidden="true"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title">Teknisk dokumentation</h2>
+                <button type="button" class="modal-close" aria-label="Stäng modal">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-section">
+                    <h3>Mina Git commits</h3>
+                    <img src="images/commits-elin.png" alt="Skärmdump av mina Git commits som visar projektets versionshistorik">
+                </div>
+                <div class="modal-section">
+                    <h3>Lighthouse-rapport</h3>
+                    <img src="images/lh-elin.png" alt="Lighthouse-rapport som visar prestanda, tillgänglighet, best practices och SEO-poäng">
+                </div>
+                <div class="modal-section">
+                    <h3>HTML-validering</h3>
+                    <img src="images/validate-elin.png" alt="HTML-valideringsresultat från W3C validator">
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
