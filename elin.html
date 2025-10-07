@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spektra | Elin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/elin.css">
+    <script defer src="scripts/main.js"></script>
+    <meta name="color-scheme" content="dark">
+    <meta name="description" content="Elin">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="/">Spektra</a>
+            <button class="burger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav id="site-nav" class="site-nav" aria-label="Primary">
+                <ul>
+                    <li><a href="index.html" class="active">Start</a></li>
+                    <li><a href="qa.html">Q&A</a></li>
+                    <li><a href="team.html">Träffa Teamet</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="profile-hero">
+            <div class="profile-image">
+                <img src="images/elin.jpg" alt="Elin">
+            </div>
+            <div class="profile-intro">
+                <h1>Elin Ratcliff</h1>
+                <p class="subtitle">Fullstack-utvecklare med UX-intresse</p>
+                <p>Jag är en fullstack-utvecklare med ett stort intresse för att skapa användarvänliga och effektiva webbapplikationer.</p>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <h2>Om mig</h2>
+            <p>En föredetta bartender och globetrotter som för 5 år sedan lite av en slump hamnde tillbaka i Sverige efter att ha bott runt om i världen i 10 år. I slutet av 2022 började jag hobbykoda, vilket sen ledde till att jag studerade Fullstack-utveckling, och nu även UX-design.</p>
+            <p>Jag är en nyfiken person med stort intresse för problemlösning och tankeställare. När jag inte kodar hittar diu mig ofta i köket, i soffan med en spelkontroll, eller ute på vift antingen på restaurang i stan, eller på ett flygplan.</p>
+        </section>
+
+        <section class="about-section">
+            <h2>Reflektion kring projektet</h2>
+            <ul class="reflections-list">
+                <li>Under projektets gång har jag fått repetera och fördjupa lite mer kring mina kunskaper inom frontend-utveckling och UX-design. Jag har också fått en mer nyanserad bild av hur det kan se ut att arbeta med detta på olika typer webbyråer, i jämförelse med där jag varit tidigare</li>
+                <li>I projektet har jag kunnat bidra med erfarenheter och kontakter från tidigare utbildning och uppbyggt nätverk. Personen vi intervjuade för detta projekt är en bekant till mig från tidigare studier på Chas Academy som fått sin anställning hos Spektra via sin LIA i fjol. jag tror också att jag kunnat dela med mig av en del kunskap från mina studier inom Fullstack-utveckling och vana att arbeta i team med git etc.</li>
+                <li>Samarbetet i teamet tycker jag har funkat bra, vi har kommunicerat fint och hjälpts åt. </li>
+                <li><button type="button" class="button cta" id="technical-elin">Se mer</button></li>
+            </ul>
+        </section>
+
+        <section class="about-section contact-section">
+            <h2>Kontakt</h2>
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:elinratliff@icloud.com">elinratliff@icloud.com</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/elin-ratcliff-932b99268/" target="_blank" rel="noopener noreferrer">linkedin.com/in/elin-ratcliff-932b99268/</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/elinfelicia" target="_blank" rel="noopener noreferrer">github.com/elinfelicia</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer container">
+        <p>© <span id="year"></span> FUX25 - Grupp 5</p>
+    </footer>
+
+    <!-- Technical Modal -->
+    <div id="technical-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+        <div class="modal-overlay" aria-hidden="true"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title">Teknisk dokumentation</h2>
+                <button type="button" class="modal-close" aria-label="Stäng modal">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-section">
+                    <h3>Mina Git commits</h3>
+                    <img src="images/commits-elin.png" alt="Skärmdump av mina Git commits som visar projektets versionshistorik">
+                </div>
+                <div class="modal-section">
+                    <h3>Lighthouse-rapport</h3>
+                    <img src="images/lh-elin.png" alt="Lighthouse-rapport som visar prestanda, tillgänglighet, best practices och SEO-poäng">
+                </div>
+                <div class="modal-section">
+                    <h3>HTML-validering</h3>
+                    <img src="images/validate-elin.png" alt="HTML-valideringsresultat från W3C validator">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
