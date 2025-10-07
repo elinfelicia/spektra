@@ -241,16 +241,18 @@ main {
 .textlollo {
     font-family: 'Roboto', sans-serif;
     color: antiquewhite;
-    border: 1px;
+    line-height: 1.6;
     padding: 3em;
     width: 90%;
+    margin:auto
 }
 
 .lollo {
     background-color: black;
     border: 1px;
-    padding: 3em;
+    padding: 3px;
     width: 90%;
+    margin:auto
  
 }
 
