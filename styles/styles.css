@@ -9,8 +9,7 @@ body {
     --color-bg: #111315; /* near black */
     --color-text: whitesmoke;
     --color-muted: #a6abb3;
-    --color-accent: #22c55e; /* vad tycker vi??? */
-
+    --color-accent: #22c55e;
     --radius: 12px;
     --shadow: 0 10px 25px rgba(0,0,0,0.35);
     --max-w: 1000px;
