@@ -91,8 +91,8 @@
 .screenshot-gallery img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* gör den beskuren men behåller proportioner */
-  transition: transform 0.2s ease;
+  object-fit: cover;
+  transition: transform 0.1s ease;
 }
 
 .screenshot-gallery a:hover img {
