@@ -130,13 +130,6 @@ a:hover, a:focus { color: var(--color-accent); }
 .site-nav a:hover, .site-nav a:focus { background: rgba(34,197,94,0.12); color: var(--color-accent); }
 .site-nav a.active { color: var(--color-text); }
 
-/* Desktop nav */
-@media (min-width: 800px) {
-    .burger { display: none; }
-    .site-nav { position: static; opacity: 1; transform: none; pointer-events: auto; }
-    .site-nav ul { background: transparent; border: 0; box-shadow: none; display: flex; gap: 8px; margin: 0; padding: 0; }
-    .site-nav a { padding: 10px 12px; }
-}
 
 main { padding: 24px 0 40px; flex: 1; }
 
@@ -177,8 +170,8 @@ main { padding: 24px 0 40px; flex: 1; }
     float: left;
     padding: 3%;
     border-radius: 10%;
-
-
+    
+    
 }
 .lollo {
     width: 90%;
@@ -192,7 +185,7 @@ main { padding: 24px 0 40px; flex: 1; }
 .qanda {
     width: 80%;
     height: auto;
-
+    
 }
 .cta:hover, .cta:focus { background: var(--color-accent); color: #0b1210; border-color: var(--color-accent); }
 
@@ -223,4 +216,12 @@ main { padding: 24px 0 40px; flex: 1; }
     object-fit: cover; 
     border-radius: 50%; 
     border: 4px solid #ccc;
+}
+
+/* Desktop nav */
+@media (min-width: 800px) {
+    .burger { display: none; }
+    .site-nav { position: static; opacity: 1; transform: none; pointer-events: auto; }
+    .site-nav ul { background: transparent; border: 0; box-shadow: none; display: flex; gap: 8px; margin: 0; padding: 0; }
+    .site-nav a { padding: 10px 12px; }
 }
