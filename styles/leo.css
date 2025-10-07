@@ -1,0 +1,60 @@
+.leo-intro {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.leo-intro-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.leo-text {
+
+    flex: 1;
+    min-width: 250px;
+}
+
+.leo-text h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.leo-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1rem;
+    color: #888;
+}
+
+
+.leo-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #555;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.leo-about h2,
+.leo-reflections h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.6rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.leo-about h2::after,
+.leo-reflections h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #22c55e;
+    margin-top: 0.5rem;
+    border-radius: 2px;
+}
