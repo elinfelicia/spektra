@@ -230,10 +230,22 @@ main {
     list-style: none;
     
 }
-.cta:hover, .cta:focus { background: var(--color-accent); color: #0b1210; border-color: var(--color-accent); }
+.button{
+    cursor: pointer;
+} 
+
+.cta:hover, .cta:focus { 
+    background: var(--color-accent); 
+    color: #0b1210; 
+    border-color: var(--color-accent); 
+}
 
 
-.site-footer { border-top: 1px solid rgba(255,255,255,0.06); padding: 16px 0 40px; color: var(--color-muted); }
+.site-footer 
+{ border-top: 1px solid rgba(255,255,255,0.06); 
+    padding: 16px 0 40px; 
+    color: var(--color-muted); 
+}
 
 .team {
     display: flex;
