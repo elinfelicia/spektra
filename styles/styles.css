@@ -219,7 +219,6 @@ main {
     
     
 }
-<<<<<<< HEAD
 
 .textlollo {
     font-family: 'Roboto', sans-serif;
@@ -230,22 +229,17 @@ main {
     margin:auto
 }
 
-=======
->>>>>>> 004000cd67b8e00ae51c6127c63416d446c1b1aa
 .lollo {
     background-color: black;
     border: 1px;
     padding: 3px;
     width: 90%;
-<<<<<<< HEAD
     margin:auto
  
 }
 
 .infospektra {
     width: 65%;
-=======
->>>>>>> 004000cd67b8e00ae51c6127c63416d446c1b1aa
     height: auto;
 }
 
@@ -305,16 +299,19 @@ main {
     .site-nav ul { background: transparent; border: 0; box-shadow: none; display: flex; gap: 8px; margin: 0; padding: 0; }
     .site-nav a { padding: 10px 12px; }
     
-    /* Spektra info section - side by side on desktop */
+  
+
     .infospektra {
         flex-direction: row;
         align-items: center;
         gap: 32px;
+        width: 100%;
     }
+
     
     .spektra-img {
         flex-shrink: 0;
-        order: 0; /* Reset order for side-by-side layout */
+        order: 0; 
     }
     
     .infospektra p {
