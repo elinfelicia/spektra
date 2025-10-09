@@ -219,11 +219,33 @@ main {
     
     
 }
+<<<<<<< HEAD
+
+.textlollo {
+    font-family: 'Roboto', sans-serif;
+    color: antiquewhite;
+    line-height: 1.6;
+    padding: 3em;
+    width: 90%;
+    margin:auto
+}
+
+=======
+>>>>>>> 004000cd67b8e00ae51c6127c63416d446c1b1aa
 .lollo {
     background-color: black;
     border: 1px;
     padding: 3px;
     width: 90%;
+<<<<<<< HEAD
+    margin:auto
+ 
+}
+
+.infospektra {
+    width: 65%;
+=======
+>>>>>>> 004000cd67b8e00ae51c6127c63416d446c1b1aa
     height: auto;
 }
 
