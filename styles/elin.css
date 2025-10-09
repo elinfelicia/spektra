@@ -253,7 +253,7 @@
     color: var(--color-accent);
 }
 
-.modal-section img {
+.modal-screenshot {
     width: 100%;
     height: auto;
     border-radius: 8px;
@@ -286,6 +286,115 @@ body.modal-open {
     overflow: hidden;
 }
 
+/* Commits Styling */
+.commits-container {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.loading {
+    text-align: center;
+    padding: 20px;
+    color: var(--color-muted);
+}
+
+
+.commit-list {
+    list-style: none;
+    
+}
+
+.commit-item {
+    padding: 16px;
+    margin-bottom: 12px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--color-muted);
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.commit-item:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(34, 197, 94, 0.3);
+    
+}
+
+.commit-item:last-child {
+    margin-bottom: 0;
+}
+
+.commit-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.commit-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid var(--color-muted);
+    object-fit: cover;
+    display: block;
+}
+
+.commit-author {
+    font-weight: 500;
+    color: var(--color-accent);
+    font-size: 0.9rem;
+}
+
+.commit-message {
+    color: var(--color-text);
+    margin: 8px 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.commit-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.commit-date {
+    color: var(--color-muted);
+    font-size: 0.85rem;
+}
+
+.commit-hash {
+    font-family: monospace;
+    font-size: 0.85rem;
+    color: var(--color-muted);
+    background: rgba(255, 255, 255, 0.05);
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.commit-link {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: opacity 0.2s ease;
+}
+
+.commit-link:hover {
+    color: var(--color-accent);
+}
+
+.error-message {
+    padding: 20px;
+    background: rgba(255, 50, 50, 0.1);
+    border: 1px solid rgba(255, 50, 50, 0.3);
+    border-radius: 8px;
+    color: #ff6b6b;
+}
 @media (min-width: 800px) {
     .profile-hero {
         flex-direction: row;
