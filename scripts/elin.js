@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
     container.innerHTML = `
       <div class="error-message">
         <strong>Kunde inte ladda commits</strong>
-        <p>Kontrollera att användarnamn och repository-namn är korrekta i main.js</p>
+        <p>Kontrollera att användarnamn och repository-namn är korrekta i elin.js</p>
         <p><small>Fel: ${error.message}</small></p>
       </div>
     `;
