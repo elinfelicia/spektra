@@ -27,11 +27,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const GITHUB_USERNAME = 'elinfelicia';
     const REPO_NAME = 'spektra'; 
-    const MAX_COMMITS = 10;
 
     try {
     const response = await fetch(
-      `https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/commits?author=${GITHUB_USERNAME}&per_page=${MAX_COMMITS}`
+      `https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/commits?author=${GITHUB_USERNAME}`
     );
 
     if (!response.ok) {
