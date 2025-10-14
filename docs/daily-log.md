@@ -19,22 +19,20 @@
   – Leo and Lollo
 
 - Created this daily log  
-
   – Lollo
 
 - Created first JSON file (team member)  
   – Leo
 
-- Created second JSON file  
-  – (unspecified — to be confirmed)
+- Created second JSON file (q&a)
+  – Leo
 
 - Parsed JSON to JavaScript  
-  – (possibly both — to be confirmed)
+  – Leo - done
+  - Lollo - work in progress
 
 ## Notes / Questions
-
-- Who created the second JSON file?
-- Will  both parse the JSON to JavaScript, or just one person?
+-
 
 # Review & Reflection
--
+- Regarding Stand-up meeting, add more details
