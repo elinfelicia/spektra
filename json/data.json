@@ -1,0 +1,59 @@
+{
+    "teammembers": [
+        {"firstName":"Louise", "lastName":"Rylander", "occupation":"Student"},
+        {"firstName":"Leo", "lastName":"Engberg", "occupation":"Student"},
+        {"firstName":"Elin", "lastName":"Ratcliff", "occupation":"Student"}
+    ],
+    "qa": [
+        {
+            "question": "Vilka yrkesroller finns inom Frontend/UX på ert företag?",
+            "answer": "Formgivare med UX, Fullstackdeveloper och Frontenddeveloper."
+        },
+        {
+            "question": "Vilka är deras ansvar och arbetsuppgifter?",
+            "answer": "Formgivarnas ansvar är egentligen för hela designprocessen, hitta rätt målgrupp och identitet till företaget. Spektra har ofta hand om hela kundens brand. Frontend-utvecklare får då se till att det implementeras på rätt sätt och att det är tillgänglighetsanpassat för t.ex. skärmläsare och att den visuella samt tekniska delen fungerar."
+        },
+        {
+            "question": "Hur samarbetar utvecklare och designers i projekt?",
+            "answer": "Hela tiden! Otroligt tight, design, anpassning, utvecklare."
+        },
+        {
+            "question": "Vilka designverktyg och prototypverktyg används?",
+            "answer": "Adobe Illustrator, XD, Figma."
+        },
+        {
+            "question": "Hur arbetar ni med tillgänglighet (WCAG 2.2) i design och utveckling?",
+            "answer": "Nivåerna är satta och krav finns. Sen juni trädde nyaste i gång och det implementeras redan i design/planeringsfasen."
+        },
+        {
+            "question": "Hur arbetar ni med användartester och insamling av feedback?",
+            "answer": "Skickar ut prototyp, kund testar, Spektra får tillbaka feedback för både design och funktionalitet och har avstämningar med kund men också internt."
+        },
+        {
+            "question": "Hur ser en typisk arbetsprocess ut när ni startar ett nytt projekt (från idé till färdig produkt)?",
+            "answer": "Möte, kolla behov, budget, tidsplan, ytterligare funktion, vilka är användaren, design, brainstorma. Wireframes, navigering, se till att dev och design samspelar. Oftast har vi långvariga relationer med kund vilket betyder att en produkt inte alltid är en 'one and done' och att man sedan går vidare."
+        },
+        {
+            "question": "Hur säkerställer ni att design och kod hänger ihop i projektet?",
+            "answer": "Det hör ihop en hel del med den tidigare frågan. Att ha en bra planeringsfas och ha regelbundna avstämningar internt inom teamet och med kund. Sedan är det många som jobbat tillsammans länge och har en naturlig arbetskemi som byggts upp."
+        },
+        {
+            "question": "Vilka färdigheter ser ni som viktigast för en junior frontend/UX att utveckla?",
+            "answer": "Självgående, våga fråga, släpp ego och stolthet. Lära sig läsa andras kod. Skriva tydligt och förståelig kod. Versionshantering. Kill your darlings early, lär er prata kund."
+        },
+        {
+            "question": "Vilken typ av utbildning anser du ger mest och bäst kompetens?",
+            "answer": "Både kunna frontend/UX samt backend är en fördel då vi är ett mindre team som jobbar här. Men är det större företag så skulle jag säga att det är bättre att vara mer inriktad mot det ena eller det andra. Så att ha en YH-utbildning inom Fullstack eller frontend och UX kan ge mycket beroende på vart man vill jobba."
+        },
+        {
+            "question": "Hur upplever ni att arbetsmarknaden ser ut idag?",
+            "answer": "Den är tight. Multikompetens/bredd är alltid bra. Viktigt med att bygga relationer/networka för att lättare få in en fot."
+        },
+        {
+            "question": "AI-Åsikter - Hjälpmedel eller hot/risk?",
+            "answer": "Inom design 'pissfarligt'. Utveckling: hjälpsamt. Inget hot för att bygga korrekt kod för folk kan inte prompta. Risken att man slutar lära sig skriva syntax... då kan man inte felsöka. Att man stagnerar i sin inlärning... det är ständigt under utveckling. Positivt att kunna leverera lite snabbare, slippa skriva monoton kod. Den lär inte rätt terminologi. Be om hjälp och förslag men inte hela idéer. Använd på rätt sätt. Code Academy är bra!"
+        }
+    ]
+
+    
+}
