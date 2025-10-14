@@ -18,6 +18,7 @@
   – Leo and Lollo
 
 - Created this daily log  
+
   – Lollo
 
 - Created first JSON file (team member)  
@@ -33,4 +34,8 @@
 
 - Who created the second JSON file?
 - Will  both parse the JSON to JavaScript, or just one person?
+
+# Review & Reflektion
+-
+
 
