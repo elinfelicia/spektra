@@ -35,7 +35,7 @@
 - Who created the second JSON file?
 - Will  both parse the JSON to JavaScript, or just one person?
 
-# Review & Reflektion
+# Review & Reflection
 -
 
 
