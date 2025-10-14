@@ -2,6 +2,7 @@
 
 ## Stand-up Meeting
 - Participants: Leo and Lollo
+  
 
 ## Work Done
 
@@ -37,5 +38,3 @@
 
 # Review & Reflection
 -
-
-
